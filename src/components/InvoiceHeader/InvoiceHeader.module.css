@@ -1,0 +1,35 @@
+.title {
+    font-size: 45px;
+    line-height: 45px;
+    color: #333;
+}
+
+.img {
+    margin-left: -40px;
+    width: 100%;
+    max-width: 300px
+}
+.table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+.table td {
+    padding-bottom: 20px;
+}
+
+.informationTable td {
+    padding-bottom: 40px;
+}
+
+.table tr td:nth-child(2) {
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}

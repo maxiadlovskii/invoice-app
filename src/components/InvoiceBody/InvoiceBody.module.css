@@ -1,0 +1,40 @@
+.heading td {
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.item td {
+    border-bottom: none;
+}
+
+.item:last-child td {
+    border-bottom: 1px solid #eee;
+}
+
+.total td:nth-child(2) {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+}
+
+.vat {
+    border-top: 2px solid #eee;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+}
+
+.item td:nth-child(2) {
+    text-align: right;
+}
+
+.total td:nth-child(2) {
+    text-align: right;
+}
